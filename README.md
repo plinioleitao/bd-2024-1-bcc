@@ -1,4 +1,4 @@
-## Disciplina **BANCO DE DADOS**, Oferta 2024/1, BXX
+## Disciplina **BANCO DE DADOS**, Oferta 2024/1, BCC
 
 ### Bem-vindo(a)!<br> 
 
