@@ -2,7 +2,7 @@
 
 ### Bem-vindo(a)!<br> 
 
-O plano da disciplina está disponível [aqui]().<br>
+O plano da disciplina está disponível [aqui](./media/bd-2024-1-bcc-plano.pdf).<br>
 
 ### Para refletir...
 
