@@ -1,14 +1,15 @@
 ## Disciplina **BANCO DE DADOS**, Oferta 2024/1, BCC
 
-### Bem-vindo(a)!<br> 
+### `Bem-vindo(a) !!` 
 
 O plano da disciplina está disponível [aqui](./media/bd-2024-1-bcc-plano.pdf).<br>
 
-### Para refletir...
+### `Para refletir...`
 
-1. Qual a distinção entre dados e metadados?
+1. Qual a distinção entre dados e metadados ?
+2. Qual a distinção entre _Modelo de Dados_ e _Esquema de Banco de Dados_ ?
 
-### Tópicos ativos
+### `Tópicos ativos ...`
 
 - [Tópico 04a](./topico/topico-04a.md)
 - [Tópico 05](./topico/topico-05.md)
@@ -17,7 +18,7 @@ O plano da disciplina está disponível [aqui](./media/bd-2024-1-bcc-plano.pdf).
 - [Todos os tópicos](topico/topico-index.md)
 - [Análise das atividades]()
 
-### Avisos ativos
+### `Avisos ativos ...`
 
 - EVENTO &#8212; **`24º Simpósio Brasileiro de Computação Aplicada à Saúde (SBCAS)`**
   - Período: 25 a 28 de junho de 2024
