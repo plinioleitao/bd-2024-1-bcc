@@ -12,6 +12,8 @@ O plano da disciplina está disponível [aqui](./media/bd-2024-1-bcc-plano.pdf).
 ### `Tópicos ativos ...`
 
 - [Tópico 04a](./topico/topico-04a.md)
+- [Tópico 04b](./topico/topico-04b.md) --> Requisitos BD ???
+- [Tópico 06b](./topico/topico-06b.md)
 - [Tópico 07](./topico/topico-07.md)
 - [Tópico 08](./topico/topico-08.md)
 - [Tópico 09](./topico/topico-09.md)
