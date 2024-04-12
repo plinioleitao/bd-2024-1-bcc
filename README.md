@@ -16,8 +16,8 @@ O plano da disciplina está disponível [aqui](./media/bd-2024-1-bcc-plano.pdf).
 - [Tópico 09](./topico/topico-09.md)
 - [Tópico 10a](./topico/topico-10a.md)
 - [Tópico 10b](./topico/topico-10b.md)
-- [Todos os tópicos](topico/topico-index.md)
-- [Análise das atividades]()
+- [Todos os tópicos](./topico/topico-index.md)
+- [Análise das atividades](./topico/tresultado.md)
 
 ### `Avisos ativos ...`
 
