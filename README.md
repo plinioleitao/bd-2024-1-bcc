@@ -11,7 +11,7 @@ O plano da disciplina está disponível [aqui](./media/bd-2024-1-bcc-plano.pdf).
 
 ### `Tópicos ativos ...`
 
-- [Tópico 04b](./topico/topico-04b.md) --> Requisitos BD Biblioteca Virtual
+- [Tópico 04b](./topico/topico-04b.md) --> Requisitos BD Livraria Virtual
 - [Tópico 10a](./topico/topico-10a.md)
 - [Tópico 10b](./topico/topico-10b.md)
 - [Tópico 11](./topico/topico-11.md)
