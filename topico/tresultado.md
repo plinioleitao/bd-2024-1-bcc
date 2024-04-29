@@ -11,10 +11,6 @@ LIVRO_COPIAS (Cod_unidade) REFERENCES UNIDADE_BIBLIOTECA (Cod_unidade)<br>
 Recupere o nome de todos os usuários ... LIVRO_EMPRESTIMOS (Nr_cartao) REFERENCES USUARIO (Nr_cartao)<br>
 Para cada livro que é emprestado da unidade ... LIVRO_EMPRESTIMOS (Cod_unidade) REFERENCES UNIDADE_BIBLIOTECA (Cod_unidade) ... LIVRO_EMPRESTIMOS (Cod_livro) REFERENCES LIVRO (Cod_livro) ... LIVRO_EMPRESTIMOS (Nr_cartao) REFERENCES USUARIO (Nr_cartao)<br>
 Para cada unidade da biblioteca, recupere ... LIVRO_EMPRESTIMOS (Cod_unidade) REFERENCES UNIDADE_BIBLIOTECA (Cod_unidade)<br>
-Recupere o nome, endereço e número ... LIVRO_EMPRESTIMOS (Nr_cartao) REFERENCES USUARIO (Nr_cartao)
-
-Para cada livro cujo autor (ou coautor) é “Stephen King”, recupere o título e o número de cópias pertencentes à unidade da biblioteca cujo nome é “Central”.
-LIVRO_AUTOR (Cod_livro) REFERENCES LIVRO (Cod_livro)
-LIVRO_COPIAS (Cod_unidade) REFERENCES UNIDADE_BIBLIOTECA (Cod_unidade)
-LIVRO_COPIAS (Cod_livro) REFERENCES LIVRO (Cod_livro)
+Recupere o nome, endereço e número ... LIVRO_EMPRESTIMOS (Nr_cartao) REFERENCES USUARIO (Nr_cartao)<br>
+Para cada livro cujo autor (ou coautor) ... LIVRO_AUTOR (Cod_livro) REFERENCES LIVRO (Cod_livro) ... LIVRO_COPIAS (Cod_unidade) REFERENCES UNIDADE_BIBLIOTECA (Cod_unidade) ... LIVRO_COPIAS (Cod_livro) REFERENCES LIVRO (Cod_livro)
 
