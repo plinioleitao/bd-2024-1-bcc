@@ -18,9 +18,14 @@ O fornecimento do serviço requer um banco de dados, capaz de viabilizar as func
 
 ### Perfis de Usuário
 
-:star2: `Usuário`
-:star2: `Fornecedor`
-:star2: `Gestor`
+:star2: `Associado`<br>
+O usuário que primariamente utiliza o serviço é chamado de ASSOCIADO (pessoa física), aquele interessado na leitura de livros digitais. Basicamente, representa a pessoa que se associa ao serviço, mediante um valor monetário pago mensalmente, onde tal concede o direito de uso do serviço.
+
+:star2: `Editora`<br>
+O usuário que fornece os livros digitais é chamado EDITORA, visando a incorporá-los ao acervo de livros do serviço.
+
+:star2: `Gestor`<br>
+O usuário responsável pela gestão administrativa e financeira do serviço é denominado GESTOR.
 
 ### Demandas Informacionais
 
