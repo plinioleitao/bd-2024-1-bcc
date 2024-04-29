@@ -16,6 +16,8 @@ Para viabilizar o serviço **Livraria Virtual**, vários _softwares_ serão nece
 :sparkles: **BANCO DE DADOS**<br>
 O fornecimento do serviço requer um banco de dados, capaz de viabilizar as funcionalidades dos diversos _softwares_ utilizados.
 
+<hr style="border:2px solid blue">
+
 ### Perfis de Usuário
 
 :star2: `Associado`<br>
@@ -26,6 +28,8 @@ O usuário que fornece os livros digitais é chamado EDITORA, visando a incorpor
 
 :star2: `Gestor`<br>
 O usuário responsável pela gestão administrativa e financeira do serviço é denominado GESTOR.
+
+<hr style="border:2px solid blue">
 
 ### Demandas Informacionais
 
