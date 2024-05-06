@@ -38,5 +38,5 @@ Quais os recortes do livro X?
 Quais os meus recortes no livro X?
 Quais os títulos mais adquiridos no período X?
 Quaos os títulos mais alugados no período X?
-lista de desejados, lista dos melhores avaliados
+lista de títulos abandonados, lista de desejados, lista dos melhores avaliados
 
