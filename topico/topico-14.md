@@ -79,6 +79,15 @@ Qual o nome dos funcionários que possuem dois ou mais dependentes?
 
 Escreva em álgebra relacional as seguintes consultas ao BD Empresa: 
 1. Qual o nome dos funcionários, que possuem mais de um dependente e trabalham em mais de um projeto?
+
+RESUMO_DEPEND(Cpf, Qtde_depend)← Fcpf ℑ CONTA Fcpf (DEPENDENTE)<br>
+RESUMO_DEPEND ← σ Qtde_depend > 1 (RESUMO_DEPEND)<br>
+RESUMO_PROJ(Cpf, Qtde_proj)← Fcpf ℑ CONTA Fcpf (TRABALHA_EM)<br>
+RESUMO_PROJ ← σ Qtde_proj > 1 (RESUMO_PROJ)<br>
+RESUMO (Cpf) ← π Cpf (RESUMO_DEPEND) ∩ π Cpf (RESUMO_PROJ)<br>
+π Pnome, Unome (RESUMO * FUNCIONARIO)
+
+
 1. Qual o nome dos dependentes, cujo funcionário responsável pelo dependente é supervisor direto de mais de um funcionário?
 
 IMPORTANTE: Use a sintaxe da Álgebra Relacional conforme os exemplos apresentados.
