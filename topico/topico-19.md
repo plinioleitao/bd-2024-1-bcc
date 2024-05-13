@@ -36,7 +36,7 @@ Onde:<br>
 
 |Álgebra Relacional|SQL|
 |-|-|
-|FUNC_F ← σ <sub>Sexo='F'</sub> (FUNCIONARIO)<br>π <sub>Cpf, Pnome, Unome</sub> (FUNC_F)|SELECT Cpf, Pnome, Unome <br>FROM FUNCIONARIO <br> WHERE Sexo='F' <br><br>SELECT Cpf, Pnome, Unome <br>FROM (SELECT * FROM FUNCIONARIO WHERE Sexo='F') AS FUNC_F|
+|π <sub>Cpf, Pnome, Unome</sub> (σ <sub>Sexo='F'</sub> (FUNCIONARIO))<br><br>FUNC_F ← σ <sub>Sexo='F'</sub> (FUNCIONARIO)<br>π <sub>Cpf, Pnome, Unome</sub> (FUNC_F)|SELECT Cpf, Pnome, Unome <br>FROM FUNCIONARIO <br> WHERE Sexo='F' <br><br>SELECT Cpf, Pnome, Unome <br>FROM (SELECT * FROM FUNCIONARIO WHERE Sexo='F') AS FUNC_F|
 
 ### Exemplo 04: Valores constantes (literais) na PROJEÇÃO
 
