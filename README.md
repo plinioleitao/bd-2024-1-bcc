@@ -7,8 +7,8 @@ O plano da disciplina está disponível [aqui](./media/bd-2024-1-bcc-plano.pdf).
 ### `Para refletir...`
 
 1. Qual a distinção entre _Modelo de Dados_ e _Esquema de Banco de Dados_ ?
-2. Qual a distinção entre _relação_ e _tabela_ ?
-3. Qual a distinção entre _álgebra relacional_ e _SQL_ ?
+2. Qual a distinção entre _Relação_ e _Tabela_ ?
+3. Qual a distinção entre _Álgebra Relacional_ e _SQL_ ?
 
 ### `Tópicos ativos ...`
 
