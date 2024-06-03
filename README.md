@@ -6,12 +6,15 @@ O plano da disciplina está disponível [aqui](./media/bd-2024-1-bcc-plano.pdf).
 
 ### `Para refletir...`
 
-1. Qual a distinção entre dados e metadados ?
-2. Qual a distinção entre _Modelo de Dados_ e _Esquema de Banco de Dados_ ?
+1. Qual a distinção entre _Modelo de Dados_ e _Esquema de Banco de Dados_ ?
+2. Qual a distinção entre _relação_ e _tabela_ ?
+3. Qual a distinção entre _álgebra relacional_ e _SQL_ ?
 
 ### `Tópicos ativos ...`
 
 - [Tópico 04b](./topico/topico-04b.md) --> Requisitos `BD Livraria Virtual`
+- [Tópico 17a](./topico/topico-17a.md)
+- [Tópico 17b](./topico/topico-17b.md)
 - [Tópico 18](./topico/topico-18.md)
 - [Tópico 19](./topico/topico-19.md)
 - [Tópico 20](./topico/topico-20.md)
