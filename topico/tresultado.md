@@ -14,3 +14,14 @@ Para cada unidade da biblioteca, recupere ... LIVRO_EMPRESTIMOS (Cod_unidade) RE
 Recupere o nome, endereço e número ... LIVRO_EMPRESTIMOS (Nr_cartao) REFERENCES USUARIO (Nr_cartao)<br>
 Para cada livro cujo autor (ou coautor) ... LIVRO_AUTOR (Cod_livro) REFERENCES LIVRO (Cod_livro) ... LIVRO_COPIAS (Cod_unidade) REFERENCES UNIDADE_BIBLIOTECA (Cod_unidade) ... LIVRO_COPIAS (Cod_livro) REFERENCES LIVRO (Cod_livro)
 
+#### Avaliação em 12/06/2024
+1. RESULT ← π <sub>FUN.Pnome, SUP.Pnome</sub> ( ρ FUN (FUNCIONARIO) ⋈ <sub>FUN.Cpf_supervisor = SUP.CPF</sub> ρ SUP (FUNCIONARIO) )
+1. JOAO_CPF ← π <sub>Cpf</sub> ( σ <sub>Pnome="Joao" &#8743; Unome="Silva"</sub> (FUNCIONARIO) )<br>
+JOAO_DEPENDENTES ← π <sub>Nome_dependente</sub> ( JOAO_CPF ⋈ <sub>JOAO_CPF.Cpf = DEPENDENTE.Fcpf</sub> DEPENDENTE )<br>
+~~JOAO_DEPENDENTES ← σ <sub>Fcpf = JOAO_CPF</sub> ( DEPENDENTE )~~<br>
+TODOS_DEPENDENTES ← π <sub>Pnome, Nome_dependente</sub> ( FUNCIONARIO ⋈ <sub>FUNCIONARIO.Cpf = DEPENDENTE.Fcpf</sub> DEPENDENTE )<br>
+RESULT ← TODOS_DEPENDENTES &#247; JOAO_DEPENDENTES<br>
+<sup>Não considera funcionários homônimos e dependentes homônimos.</sup>
+1. PROJETOS_FUNC (Cpf, Qtde_projetos) ← Fcpf ℑ CONTA Fcpf ( TRABALHA_EM )<br>
+PROJETOS_FUNC_DOIS ← σ <sub>Qtde_projetos=2</sub> ( PROJETOS_FUNC )<br>
+RESULT ← π <sub>Pnome</sub> ( PROJETOS_FUNC_DOIS ⋈ <sub>PROJETOS_FUNC_DOIS.Cpf = FUNCIONARIO.Cpf</sub> FUNCIONARIO )
