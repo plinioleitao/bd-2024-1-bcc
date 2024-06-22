@@ -40,11 +40,15 @@ FROM VENDE NATURAL JOIN GOSTA<br>
 WHERE Bar = 'Pipoca'<br>
 GROUP BY PESSOA<br>
 HAVING COUNT(*) > 1
-3. SELECT DISTINCT Pessoa<br>
+3. SELECT Pessoa FROM GOSTA<br>
+EXCEPT<br>
+SELECT Pessoa<br>
+FROM VENDE NATURAL JOIN GOSTA<br>
+WHERE Bar = 'Pipoca'<br>
+&nbsp;&nbsp;&nbsp;&nbsp;_Outra alternativa ..._<br>
+SELECT DISTINCT Pessoa<br>
 FROM GOSTA<br>
 WHERE NOT EXISTS (<br>
 &nbsp;&nbsp;&nbsp;&nbsp;SELECT Cerveja FROM GOSTA AS INT WHERE INT.Pessoa = EXT.Pessoa<br>
 &nbsp;&nbsp;&nbsp;&nbsp;INTERSECT<br>
 &nbsp;&nbsp;&nbsp;&nbsp;SELECT Cerveja FROM VENDE WHERE Bar = 'Pipoca' )
-
-
