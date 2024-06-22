@@ -24,3 +24,15 @@ RESULT ← TODOS_DEPENDENTES &#247; JOAO_DEPENDENTES<br>
 1. PROJETOS_FUNC (Cpf, Qtde_projetos) ← Fcpf ℑ CONTA Fcpf ( TRABALHA_EM )<br>
 PROJETOS_FUNC_DOIS ← σ <sub>Qtde_projetos=2</sub> ( PROJETOS_FUNC )<br>
 RESULT ← π <sub>Pnome</sub> ( PROJETOS_FUNC_DOIS ⋈ <sub>PROJETOS_FUNC_DOIS.Cpf = FUNCIONARIO.Cpf</sub> FUNCIONARIO )
+
+#### Avaliação em 19/06/2024
+1. SELECT DISTINCT Pessoa<br>
+FROM VENDE NATURAL JOIN GOSTA<br>
+WHERE Bar = 'Pipoca'<br>
+&nbsp;&nbsp;&nbsp;&nbsp;_Outra alternativa ..._<br>
+SELECT DISTINCT Pessoa<br>
+FROM GOSTA<br>
+WHERE Cerveja IN (<br>
+&nbsp;&nbsp;&nbsp;&nbsp;SELECT Cerveja FROM VENDE<br>
+&nbsp;&nbsp;&nbsp;&nbsp;WHERE Bar = 'Pipoca' )
+2.
