@@ -7,20 +7,13 @@ O plano da disciplina está disponível [aqui](./media/bd-2024-1-bcc-plano.pdf).
 ### `Para refletir...`
 
 1. Qual a distinção entre _Modelo de Dados_ e _Esquema de Banco de Dados_ ?
-2. Qual a distinção entre _Relação_ e _Tabela_ ?
-3. Qual a distinção entre _Álgebra Relacional_ e _SQL_ ?
+2. Qual a distinção entre _Entidade_, _Relacionamento_ e _Attibuto_ ?
 
 ### `Tópicos ativos ...`
 
 - [Tópico 04b](./topico/topico-04b.md) --> Requisitos `BD Livraria Virtual`
-- [Tópico 18](./topico/topico-18.md)
-- [Tópico 19](./topico/topico-19.md)
-- [Tópico 20](./topico/topico-20.md)
-- [Tópico 21](./topico/topico-21.md)
-- [Tópico 22](./topico/topico-22.md)
-- [Tópico 23](./topico/topico-23.md)
-- [Tópico 24](./topico/topico-24.md)
 - [Tópico 25](./topico/topico-25.md)
+- [Tópico 26](./topico/topico-26.md)
 - [Todos os tópicos](./topico/topico-index.md)
 - [Análise das atividades](./topico/tresultado.md)
 
