@@ -52,3 +52,13 @@ WHERE NOT EXISTS (<br>
 &nbsp;&nbsp;&nbsp;&nbsp;SELECT Cerveja FROM GOSTA AS INT WHERE INT.Pessoa = EXT.Pessoa<br>
 &nbsp;&nbsp;&nbsp;&nbsp;INTERSECT<br>
 &nbsp;&nbsp;&nbsp;&nbsp;SELECT Cerveja FROM VENDE WHERE Bar = 'Pipoca' )
+
+#### Avaliação em 26/06/2024
+1. SELECT Dnome, Count(Cpf), AVG(Salario)<br>
+FROM FUNCIONARIO JOIN DEPARTAMENTO<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ON Dnr = Dnumero<br>
+GROUP BY Dnr, Dnome
+2. SELECT Pnome, Unome<br>
+FROM FUNCIONARIO<br>
+WHERE Cpf NOT IN (<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SELECT Fcpf FROM DEPENDENTE )
