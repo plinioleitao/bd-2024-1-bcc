@@ -54,7 +54,7 @@ WHERE NOT EXISTS (<br>
 &nbsp;&nbsp;&nbsp;&nbsp;SELECT Cerveja FROM VENDE WHERE Bar = 'Pipoca' )
 
 #### Avaliação em 26/06/2024
-1. SELECT Dnome, Count(Cpf), AVG(Salario)<br>
+1. SELECT Dnome, Count(*), AVG(Salario)<br>
 FROM FUNCIONARIO JOIN DEPARTAMENTO<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ON Dnr = Dnumero<br>
 GROUP BY Dnr, Dnome
@@ -62,3 +62,13 @@ GROUP BY Dnr, Dnome
 FROM FUNCIONARIO<br>
 WHERE Cpf NOT IN (<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SELECT Fcpf FROM DEPENDENTE )
+3. SELECT Pnome, Unome<br>
+FROM FUNCIONARIO<br>
+WHERE	Cpf IN (<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SELECT Fcpf FROM DEPENDENTE<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GROUP BY Fcpf<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HAVING COUNT(\*) > 1 )<br>
+AND Cpf IN (<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SELECT Fcpf FROM TRABALHA_EM<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GROUP BY Fcpf<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HAVING COUNT(\*) > 1 )
