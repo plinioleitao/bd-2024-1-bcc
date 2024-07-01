@@ -41,3 +41,7 @@ Quais os títulos mais alugados no [período X] ?<br>
 Quais os títulos abandonados no [período X] ?<br>
 Quais os títulos mais desejados no [período X] ?<br>
 Quais os títulos com melhores avaliações no [período X] ?<br>
+
+:star2: `Editora`<br>
+
+:star2: `Gestor`<br>
