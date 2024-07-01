@@ -34,7 +34,7 @@ O usuário responsável pela gestão administrativa e financeira do serviço é 
 ### Demandas Informacionais
 
 :star2: `Associado`<br>
-Quantos sãO os recortes do livro X ?<br>
+Quantos são os recortes do livro X ?<br>
 Quais os meus recortes no livro X ?<br>
 Quais os títulos mais adquiridos [no período X] ?<br>
 Quais os títulos mais alugados no [período X] ?<br>
