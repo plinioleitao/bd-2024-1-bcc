@@ -34,9 +34,14 @@ O usuário responsável pela gestão administrativa e financeira do serviço é 
 ### Demandas Informacionais
 
 :star2: `Associado`<br>
-Quais os recortes do livro X?
-Quais os meus recortes no livro X?
-Quais os títulos mais adquiridos no período X?
-Quaos os títulos mais alugados no período X?
-lista de títulos abandonados, lista de desejados, lista dos melhores avaliados
+Quantos são os recortes do livro X ?<br>
+Quais os meus recortes no livro X ?<br>
+Quais os títulos mais adquiridos [no período X] ?<br>
+Quais os títulos mais alugados no [período X] ?<br>
+Quais os títulos abandonados no [período X] ?<br>
+Quais os títulos mais desejados no [período X] ?<br>
+Quais os títulos com melhores avaliações no [período X] ?<br>
 
+:star2: `Editora`<br>
+
+:star2: `Gestor`<br>
