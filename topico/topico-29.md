@@ -1,4 +1,4 @@
-## [Tópico 30] - Modelo Entidade Relacionamento (MER) - Exercício
+## [Tópico 29] - Modelo Entidade Relacionamento (MER) - Exercício
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
 Três projetistas de banco de dados - Projetista 01, Projetista 02 e Projetista 03 - foram contratados para elaborar o esquema conceitual segundo o Modelo Entidade Relacionamento, referente ao banco de dados de uma universidade: **BD Universidade**, conforme ilustrado nas figuras abaixo.
